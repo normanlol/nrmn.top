@@ -29,6 +29,7 @@ button {
 	height:30px;
 	margin:5px;
 	font-size:14px;
+	font-family:verdana;
 	transition:background-color .5s,width .5s,height .5s,font-size .5s;
 }
 
@@ -41,6 +42,7 @@ button:hover {
 
 #buttonContainer {
 	text-align:center;
+	color:white;
 }
 
 #redir {
