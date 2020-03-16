@@ -28,7 +28,7 @@ button {
 	width:100px;
 	height:30px;
 	margin:5px;
-	font-size:14px;
+	font-size:12px;
 	font-family:verdana;
 	transition:background-color .5s,width .5s,height .5s,font-size .5s;
 }
