@@ -27,7 +27,7 @@ function goTo(place) {
 				window.open("https://n0rmancodes.github.io/vidpolaris", "_self");
 			},1140)
 		}, 300)
-	} else if (place == 'mv') {
+	} else if (place == 'yv') {
 		playSound("4.mp3");
 		document.getElementById("main").style = "opacity:0.0";
 		document.getElementById("vpButton").removeAttribute("onmouseout");
@@ -40,7 +40,7 @@ function goTo(place) {
 		document.getElementById("arButton").removeAttribute("onmouseout");
 		setTimeout(function() {
 			document.getElementById("main").style.display = "none";
-			window.open("https://n0rmancodes.github.io/movievortex", "_self");
+			window.open("https://n0rmancodes.github.io/yviewer", "_self");
 		}, 300)
 	} else if (place == 'gt') {
 		playSound("4.mp3");
