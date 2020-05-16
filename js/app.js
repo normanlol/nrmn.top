@@ -71,7 +71,7 @@ function goTo(place) {
 		document.getElementById("arButton").removeAttribute("onmouseout");
 		setTimeout(function() {
 			document.getElementById("main").style = "none";
-			window.open("https://twitter.com/normanisawful", "_self");
+			window.open("https://twitter.com/soyboynorman", "_self");
 		},1140)
 	} else if (place == 'si') {
 		playSound("4.mp3");
@@ -87,6 +87,21 @@ function goTo(place) {
 		setTimeout(function() {
 			document.getElementById("main").style = "none";
 			window.open("https://n0rmancodes.github.io/simplesearch", "_self");
+		},1140)
+	} else if (place == 'yt') {
+		playSound("4.mp3");
+		document.getElementById("main").style = "opacity:0.0";
+		document.getElementById("vpButton").removeAttribute("onmouseout");
+		document.getElementById("mvButton").removeAttribute("onmouseout");
+		document.getElementById("gtButton").removeAttribute("onmouseout");
+		document.getElementById("twButton").removeAttribute("onmouseout");
+		document.getElementById("siButton").removeAttribute("onmouseout");
+		document.getElementById("yaButton").removeAttribute("onmouseout");
+		document.getElementById("ytButton").removeAttribute("onmouseout");
+		document.getElementById("arButton").removeAttribute("onmouseout");
+		setTimeout(function() {
+			document.getElementById("main").style = "none";
+			window.open("https://www.youtube.com/channel/UCSDRPx3FX6Va7XkpvNoqY6w", "_self");
 		},1140)
 	} else if (place == 'ya') {
 		playSound("4.mp3");
