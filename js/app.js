@@ -8,6 +8,7 @@ function playSound(file) {
 }
 
 function remove() {
+	document.getElementById("abButton").removeAttribute("onmouseout");
 	document.getElementById("vpButton").removeAttribute("onmouseout");
 	document.getElementById("rfButton").removeAttribute("onmouseout");
 	document.getElementById("weButton").removeAttribute("onmouseout");
