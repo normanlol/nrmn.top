@@ -16,6 +16,7 @@ function remove() {
 	document.getElementById("siButton").removeAttribute("onmouseout");
 	document.getElementById("yaButton").removeAttribute("onmouseout");
 	document.getElementById("ytButton").removeAttribute("onmouseout");
+	document.getElementById("msButton").removeAttribute("onmouseout");
 	document.getElementById("arButton").removeAttribute("onmouseout");
 }
 
@@ -99,6 +100,13 @@ function goTo(place) {
 		setTimeout(function() {
 			document.getElementById("main").style = "none";
 			window.open("https://drive.google.com/drive/folders/1WTreyZo-XVTZanJB_sKsx1d6Nji154jw?usp=sharing", "_self");
+		},1140)
+	} else if (place == 'ms') {
+		playSound("4.mp3");
+		remove();
+		setTimeout(function() {
+			document.getElementById("main").style = "none";
+			window.open("https://mastodon.online/@norman", "_self");
 		},1140)
 	} else if (place == 'ab') {
 		playSound("3.mp3");
