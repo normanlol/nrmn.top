@@ -1,55 +1,53 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>HOMEPAGE - n0rman</title>
-		<link href="css/style.css" rel="stylesheet"> 
+		<title>norman</title>
+		<meta charset="UTF-8">
+		<link href="style.css" rel="stylesheet"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta property="og:title" content="norman's homepage">
 		<meta property="og:type" content="website">
-		<meta property="og:url" content="https://n0rmancodes.github.io">
 		<meta property="og:description" content="my website with the links to my social medias and projects!">
 		<meta property="og:image:url" content="https://i.postimg.cc/KYLLZFck/stan.png">
 		<meta property="og:image" content="https://i.postimg.cc/KYLLZFck/stan.png">
 		<meta property="og:image:type" content="image/png">
-		<meta charset="UTF-8">
 	</head>
 	<body>
-		<noscript>
-			<div class="overlay">
-				<p>javascript is required for this page.</p>
-			</div>
-		</noscript>
-		<div class="centerBody" id="main">
-			<center>
-				<h1>n0rman</h1>
-				<p class="text">here are all of my projects, including videos, programming projects, and more.</p>
-			</center>
-			<div id="buttonContainer">
-				<button onclick="goTo('ab')" id="abButton" onmouseover="playSound('2.mp3')" onmouseout="playSound('1.mp3')">about me</button>
-				<div class="divider"></div>
-				<button onclick="goTo('vp')" id="vpButton" onmouseover="playSound('2.mp3')" onmouseout="playSound('1.mp3')">vidpolaris</button><br>
-				<button onclick="goTo('rf')" id="rfButton" onmouseover="playSound('2.mp3')" onmouseout="playSound('1.mp3')">riftify</button><br>
-				<button onclick="goTo('we')" id="weButton" onmouseover="playSound('2.mp3')" onmouseout="playSound('1.mp3')">webedit</button><br>
-				<button onclick="goTo('si')" id="siButton" onmouseover="playSound('2.mp3')" onmouseout="playSound('1.mp3')">simplesearch</button><br>
-				<div class="divider"></div>
-				<button onclick="goTo('gt')" id="gtButton" onmouseover="playSound('2.mp3')" onmouseout="playSound('1.mp3')">github page</button><br>
-				<button onclick="goTo('yt')" id="ytButton" onmouseover="playSound('2.mp3')" onmouseout="playSound('1.mp3')">youtube</button><br>
-				<button onclick="goTo('ya')" id="yaButton" onmouseover="playSound('2.mp3')" onmouseout="playSound('1.mp3')">alt yt</button><br>
-				<button onclick="goTo('tw')" id="twButton" onmouseover="playSound('2.mp3')" onmouseout="playSound('1.mp3')">twitter</button><br>
-				<button onclick="goTo('ms')" id="msButton" onmouseover="playSound('2.mp3')" onmouseout="playSound('1.mp3')">mastodon</button><br>
-				<button onclick="goTo('ar')" id="arButton" onmouseover="playSound('2.mp3')" onmouseout="playSound('1.mp3')">archive</button><br>
-				<audio id="sfx"></audio>
-				<div style="display:none;">
-					<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KMuAuHsos4Q?autoplay=1&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</div>
+		<h1>norman</h1>
+		<p>a 15 year old programmer living in the coldest part of buffalo.</p>
+		<div class="container">
+			<a href="https://twitter.com/globtime">
+				<button>twitter</button>
+			</a>
+			<a href="https://instagram.com/xx_awfulbeing_xx">
+				<button>shitpost instagram</button>
+			</a>
+			<a href="https://github.com/n0rmancodes">
+				<button>github</button>
+			</a>
+			<a href="https://www.npmjs.com/~n0rmancodes">
+				<button>npm</button>
+			</a>
+			<a href="https://discord.com/users/629753232821846016">
+				<button>discord</button>
+			</a>
 		</div>
-		<div id="aboutPage" style="display:none;">
-			<h2>about me</h2>
-			<p class="text">hello! i'm norman! a 15 year old high school freshmen wanting to pursue programming for a living. my hobbies are watching movies, video editing and playing video games along the way.</p>
-			<p class="text">i live in (probably) the coldest part of new york where i spend most days coding away at my computer.</p>
-			<button onclick="goTo('home')" onmouseover="playSound('2.mp3')" onmouseout="playSound('1.mp3')">go back</button>
+		<div class="container">
+			<a href="https://www.youtube.com/channel/UCSDRPx3FX6Va7XkpvNoqY6w">
+				<button>main youtube</button>
+			</a>
+			<a href="https://www.youtube.com/channel/UCK29JJpL2x-7PezLvNHov8g">
+				<button>alt youtube</button>
+			</a>
+			<a href="https://drive.google.com/drive/folders/1WTreyZo-XVTZanJB_sKsx1d6Nji154jw?usp=sharing">
+				<button>content archive</button>
+			</a>
+			<a href="https://reddit.com/u/normtendo64">
+				<button>reddit</button>
+			</a>
+			<a href="https://mastodon.online/@norman">
+				<button>mastodon</button>
+			</a>
 		</div>
-		<script src="js/app.js"></script>
 	</body>
 </html>
