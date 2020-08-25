@@ -1,0 +1,59 @@
+html, body {
+	background:black;
+	color:white;
+	height:100%;
+	font-family:Arial;
+	transition:margin .5s;
+	overflow:hidden;
+}
+
+a {
+    color:cyan;
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+button {
+	border:0;
+	background:#282828;
+	color:white;
+	height:30px;
+	transition:background .5s;
+	cursor:pointer;
+}
+
+.container {
+	margin-top:0.5%;
+	margin-bottom:0.5%;
+}
+
+button:hover {
+	background:#646464;
+}
+
+h1, p {
+	margin:0;
+}
+
+h2 {
+    margin-top:0.75%;
+    margin-bottom:0.5%;
+}
+
+@media (min-width:980px) {
+    h2 {
+        margin-bottom:0.75%;
+    }
+	p {
+        width:40%;
+    }
+}
+
+@media (max-width:979px) {
+    p {
+        width:100%;
+    }
+}
