@@ -4,7 +4,6 @@ html, body {
 	height:100%;
 	font-family:Arial;
 	transition:margin .5s;
-	overflow:hidden;
 }
 
 a {
@@ -34,13 +33,17 @@ button:hover {
 	background:#646464;
 }
 
-h1, p {
+h1, h3, p {
 	margin:0;
 }
 
 h2 {
     margin-top:0.75%;
     margin-bottom:0.5%;
+}
+
+.noMargin {
+	margin:0;
 }
 
 @media (min-width:980px) {
