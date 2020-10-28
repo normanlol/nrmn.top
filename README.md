@@ -1,2 +1,2 @@
 # my website
-this is used at my website, [nrmn.top](https://www.nrmn.top/).
+this is used at my website, [nrmn.top](https://nrmn.top/).
