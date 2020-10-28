@@ -1,0 +1,83 @@
+html, body {
+    background:#4d4d4d;
+    color:white;
+    font-family:Helvetica;
+}
+
+.noMarginC * {
+    margin:0;
+}
+
+.center {
+    text-align:center;
+}
+
+.sections {
+    margin-top:10px;
+    max-width:50%;
+}
+
+.group p {
+    max-width:50%;
+    margin-top:10px;
+}
+
+.sections button {
+    background:white;
+    border:0;
+    height:40px;
+    width:195px;
+    transition:background 0.5s, width 0.5s;
+    margin-bottom:5px;
+}
+
+.sections button:hover {
+    background:#a6a6a6;
+    width:205px;
+    cursor:pointer;
+}
+
+a {
+    color:white;
+}
+
+.hoverable {
+    text-decoration:none;
+}
+
+.hoverable:hover {
+    text-decoration:underline;
+}
+
+@media (max-width:1000px) {
+    .centerOnMobile {
+        text-align:center;
+    }
+    .starter {
+        margin-top:25%;
+    }
+    .sections {
+        margin:10px;
+        max-width:100%;
+    }
+    .sections button {
+        width:75%;
+        margin-bottom:20px;
+        height:50px;
+        break-after:always;
+    }
+    .sections button:hover {
+        width:30%;
+    }
+    .hoverable {
+        text-decoration:underline;
+    }
+    .group p {
+        max-width:90%;
+        margin-left:5%;
+        margin-right:5%;
+    }
+    .starter p, .btm {
+        text-align:center;
+    }
+}
