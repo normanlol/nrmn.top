@@ -77,6 +77,9 @@ a {
         margin-left:5%;
         margin-right:5%;
     }
+    .group i, .group a {
+        margin:0;
+    }
     .starter p, .btm {
         text-align:center;
     }
