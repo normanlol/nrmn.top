@@ -127,6 +127,17 @@ button:focus, button:focus-within, button:hover {
     }
 }
 
+@media (max-width:650px) {
+    .header .leftSide {
+        width:0% !important;
+        display:none;
+    }
+    .header .rightSide {
+        width:100% !important;
+        float:none !important;
+    }
+}
+
 @media (max-width:900px) {
     .sectionText {
         width:100%;
