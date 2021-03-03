@@ -108,8 +108,8 @@ button:focus, button:focus-within, button:hover {
 }
 
 #links button {
-    break-after:always;
     margin-bottom:7px;
+    width:75px;
 }
 
 @media (max-width:495px) {
