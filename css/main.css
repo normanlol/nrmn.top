@@ -107,6 +107,10 @@ button:focus, button:focus-within, button:hover {
     margin-bottom:10px;
 }
 
+.noCenter {
+    text-align:left !important;
+}
+
 #links button {
     margin-bottom:7px;
     width:75px;
@@ -145,7 +149,7 @@ button:focus, button:focus-within, button:hover {
 }
 
 @media (min-width:900px) {
-    .sectionText {
+    .sectionText, .section ul {
         width:75%;
         margin:auto !important;
     }
