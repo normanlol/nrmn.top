@@ -116,6 +116,10 @@ button:focus, button:focus-within, button:hover {
     width:75px;
 }
 
+.etcbtn {
+    display:none;
+}
+
 @media (max-width:495px) {
     #pfp {
         display:none !important;
@@ -131,7 +135,7 @@ button:focus, button:focus-within, button:hover {
     }
 }
 
-@media (max-width:650px) {
+@media (max-width:800px) {
     .header .leftSide {
         width:0% !important;
         display:none;
@@ -139,6 +143,14 @@ button:focus, button:focus-within, button:hover {
     .header .rightSide {
         width:100% !important;
         float:none !important;
+    }
+    
+    .overflowbtn {
+        display:none !important;
+    }
+
+    .etcbtn {
+        display:initial;
     }
 }
 
